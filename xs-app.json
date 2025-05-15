@@ -4,7 +4,7 @@
   "routes": [
     {
       "source": "^(.*)$",
-      "localDir": "/",
+      "localDir": "web",
       "authenticationType": "ias"
     }
   ]
