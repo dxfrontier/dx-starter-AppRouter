@@ -4,8 +4,7 @@
     {
       "source": "^(.*)$",
       "target": "$1",
-      "destination": "srv",
-      "authenticationType": "xsuaa"
+      "destination": "srv"
     }
   ]
 }
