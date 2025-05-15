@@ -1,5 +1,10 @@
 {
   "welcomeFile": "index.html",
-  "authenticationMethod": "ias",
-  "routes": []
+  "authenticationMethod": "route",
+  "routes": [
+    {
+      "source": "^(.*)$",
+      "authenticationType": "ias"
+    }
+  ]
 }
