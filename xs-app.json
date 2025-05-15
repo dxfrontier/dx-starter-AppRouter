@@ -1,17 +1,9 @@
 {
-  "welcomeFile": "index.html",
   "authenticationMethod": "route",
   "routes": [
-     {
-      "source": "^srv/(.*)$",
-      "target": "$1",
-      "destination": "srv",
-      "csrfProtection": true,
-      "authenticationType": "ias"
-    },
     {
       "source": "^(.*)$",
-      "localDir": "web",
+      "destination": "srv",
       "authenticationType": "ias"
     }
   ]
