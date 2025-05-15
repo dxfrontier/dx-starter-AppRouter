@@ -4,8 +4,7 @@
     {
       "source": "^(.*)$",
       "target": "$1",
-      "destination": "srv",
-      "authenticationType": "ias"
+      "destination": "srv"
     }
   ]
 }
