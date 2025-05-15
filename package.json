@@ -1,0 +1,10 @@
+{
+	"name": "dx-starter-approuter",
+	"description": "Node.js based application router service",
+	"dependencies": {
+		"@sap/approuter": "latest"
+	},
+	"scripts": {
+		"start": "node node_modules/@sap/approuter/approuter.js"
+	}
+}
