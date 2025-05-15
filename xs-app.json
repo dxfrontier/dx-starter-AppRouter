@@ -5,7 +5,7 @@
       "source": "^(.*)$",
       "target": "$1",
       "destination": "srv",
-      "authenticationType": "xsuaa"
+      "authenticationType": "ias"
     }
   ]
 }
